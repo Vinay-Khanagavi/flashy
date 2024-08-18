@@ -35,7 +35,7 @@ export function LandingPage() {
           <span className="text-primary-foreground font-bold text-lg ml-2">Flashy</span>
         </Link>
 
-        {/* <nav className="hidden lg:flex gap-4 sm:gap-6">
+        <nav className="hidden lg:flex gap-4 sm:gap-6">
           <Link
             href="#"
             className="text-sm font-medium text-primary-foreground hover:underline underline-offset-4"
@@ -60,10 +60,10 @@ export function LandingPage() {
             prefetch={false}>
             Contact
           </Link>
-        </nav> */}
+        </nav>
 
         
-        {/* <div className="hidden lg:flex items-center gap-4">
+        <div className="hidden lg:flex items-center gap-4">
           <SignedOut>
             <SignInButton mode="modal">
               <Button variant="outline" className="w-full min-[400px]:w-auto">
@@ -79,7 +79,7 @@ export function LandingPage() {
           <SignedIn>
             <UserButton afterSignOutUrl="/" />
           </SignedIn>
-        </div> */}
+        </div>
 
         <Sheet>
           <SheetTrigger asChild>
@@ -330,7 +330,7 @@ export function LandingPage() {
           </div>
         </section>
       </main>
-      {/* <footer className="bg-muted p-6 md:py-12 w-full mx-auto">
+      <footer className="bg-muted p-6 md:py-12 w-full mx-auto">
         <div
           className="container max-w-7xl grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 text-sm">
           <div className="grid gap-1">
@@ -361,7 +361,7 @@ export function LandingPage() {
             <h3 className="font-semibold">Support</h3>
           </div>
         </div>
-      </footer> */}
+      </footer>
     </div>)
   );
 }
