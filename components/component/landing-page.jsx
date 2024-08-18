@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet"
 import { Card, CardHeader, CardContent, CardFooter } from "@/components/ui/card"
 import { useRouter } from 'next/navigation';
-
+import Spline from '@splinetool/react-spline/next';
 
 import {
     ClerkProvider,
@@ -154,14 +154,15 @@ export function LandingPage() {
               </div>
             </div>
             <div className="flex justify-center">
-              <img
-                src="/placeholder.svg"
-                width="500"
-                height="400"
-                alt="Flashcard Mockup"
-                className="w-full max-w-md rounded-xl shadow-xl"
-                style={{ aspectRatio: "500/400", objectFit: "cover" }} />
+            <div 
+              className="w-full max-w-[600px] rounded-xl shadow-xl overflow-hidden"
+              style={{ aspectRatio: "500/400" }}
+            >
+              <Spline
+                scene="https://prod.spline.design/IqybfmowbEe7Q4ez/scene.splinecode"
+              />
             </div>
+          </div>
           </div>
         </section>
         <section className="py-12 md:py-24 lg:py-32">
