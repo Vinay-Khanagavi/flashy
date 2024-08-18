@@ -271,12 +271,12 @@ export function LandingPage() {
               <div className="bg-black rounded-md p-3 flex items-center justify-center">
                 <RepeatIcon className="h-8 w-8 text-primary-foreground" />
               </div>
-              <h3 className="text-2xl font-bold">Free</h3>
+              <h3 className="text-2xl font-bold">Coming Soon</h3>
               <p className="text-muted-foreground">
                 Our standard plan includes advanced features like custom collections and detailed analytics.
               </p>
               <div className="flex flex-col gap-2">
-                <span className="text-4xl font-bold">$0</span>
+                <span className="text-4xl font-bold">$--</span>
                 <span className="text-sm text-muted-foreground">per month</span>
               </div>
               <Link
@@ -291,12 +291,12 @@ export function LandingPage() {
               <div className="bg-black rounded-md p-3 flex items-center justify-center">
                 <FolderIcon className="h-8 w-8 text-primary-foreground" />
               </div>
-              <h3 className="text-2xl font-bold">Free</h3>
+              <h3 className="text-2xl font-bold">Coming Soon</h3>
               <p className="text-muted-foreground">
                 Our premium plan unlocks unlimited flashcard generation, team collaboration, and priority support.
               </p>
               <div className="flex flex-col gap-2">
-                <span className="text-4xl font-bold">$0</span>
+                <span className="text-4xl font-bold">$--</span>
                 <span className="text-sm text-muted-foreground">per month</span>
               </div>
               <Link
