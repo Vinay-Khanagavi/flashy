@@ -140,8 +140,8 @@ export function LandingPage() {
                 Effortless Flashcard Creation
               </h1>
               <p className="text-primary-foreground md:text-xl">
-                AI Flashcards is a powerful SaaS tool that automatically generates flashcards from your slides or
-                documents, making studying and review a breeze.
+                No login or sign-up required! AI Flashcards is a powerful SaaS tool that automatically generates 
+                flashcards from your slides or documents, making studying and review a breeze.
               </p>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
               <Button 
